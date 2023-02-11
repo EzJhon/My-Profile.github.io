@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    padding:0;
+    background: url(pucot.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1090px;
+    background-color: black;
+
+    font-family: sans-serif;
+   0
+}  
+.form-container {
+	width: 320px;
+    height: 420px;
+    background:transparent;
+    color: #fff; 
+    top: 50%;
+    left: 75%;
+    border-radius: 10PX;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+#error{
+	color: red;
+	text-align: center;
+}
+#user{
+    margin-top: 5px;
+    margin-bottom: 15px;
+	color: black;
+	text-align: center;
+}
+#pass{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: black;
+	text-align: center;
+}
+.form-container h3 {
+	color: black;
+	margin-bottom: -10px;
+	text-align: center;
+	padding: 10px;
+}
+.form-grp{
+	padding: 10px;
+	position: relative;
+}
+
+.form-grp5{
+	background-color: blue;
+	text-align: center;
+	margin-right: 20px;
+	margin-left:  20px;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 8px;
+	border: none;
+}
+
+
+input[type = text], input[type = password]{
+	padding: 8px;
+	width: 225px;
+	border: 1px solid lightgray;
+	border-radius: 6px;
+}
+input[type = text]:focus, input[type = password]:focus {
+	outline: 0;
+}
+input[type = submit]{
+	background-color: black;
+	width: 225px;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 10px;
+	border: none;
+}
+
+
+input[type = submite]{
+	background-color: red;
+	width: 225px;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 10px;
+	border: none;
+}
+
+
+
+.form-grp .fa {
+	position: absolute;
+	top: 50%;
+	right: 8%;
+	display: none;
+}
+
+.fa-time{
+	color: red;
+}
+
+.fa-check{
+	color: green;
+}
